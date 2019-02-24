@@ -77,3 +77,20 @@ alert.addTextField(configurationHandler: nil)//Add textfield to alert
     let pass:String = alert.textFields![1].text!   
     print(emai,pass)
     }
+    //co 2 cach de lay gia tri tu slider
+1       print(sldValue.value)
+2       print(sender.value)
+if let sw = sender as? UISwitch // kiem tra ton tai
+//web kit
+import UIKit
+import WebKit // them webkit
+
+class ViewController: UIViewController {
+
+
+    @IBOutlet weak var wvWeb: WKWebView!// ham moi
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let url:URL = URL(string: "https://www.chess.com/")!
+        let req:URLRequest = URLRequest(url: url)
+        wvWeb.load(req)
