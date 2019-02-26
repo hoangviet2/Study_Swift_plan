@@ -34,8 +34,11 @@ class ViewController: UIViewController {
             index = index + 1
             if index > history.count - 1
             {
-                index = history.count - 1
-            
+                if history.count > 0 {
+                    index = history.count - 1
+                } else {
+                    index = 0
+                }
             }
             let url:URL = URL(string: history[index])!
             let req:URLRequest = URLRequest(url: url)
