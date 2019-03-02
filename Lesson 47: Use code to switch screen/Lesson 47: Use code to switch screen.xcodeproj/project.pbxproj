@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B35C6B422256C6F00A8A9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35C6B322256C6F00A8A9B1 /* AppDelegate.swift */; };
-		3B35C6B622256C6F00A8A9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35C6B522256C6F00A8A9B1 /* ViewController.swift */; };
-		3B35C6B922256C6F00A8A9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B35C6B722256C6F00A8A9B1 /* Main.storyboard */; };
-		3B35C6BB22256C7100A8A9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B35C6BA22256C7100A8A9B1 /* Assets.xcassets */; };
-		3B35C6BE22256C7100A8A9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B35C6BC22256C7100A8A9B1 /* LaunchScreen.storyboard */; };
-		3B35C6C622256D6100A8A9B1 /* Screen 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35C6C522256D6100A8A9B1 /* Screen 2.swift */; };
+		3BDA3B512226C8AA00096030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA3B502226C8AA00096030 /* AppDelegate.swift */; };
+		3BDA3B532226C8AA00096030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA3B522226C8AA00096030 /* ViewController.swift */; };
+		3BDA3B562226C8AA00096030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA3B542226C8AA00096030 /* Main.storyboard */; };
+		3BDA3B582226C8AA00096030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA3B572226C8AA00096030 /* Assets.xcassets */; };
+		3BDA3B5B2226C8AA00096030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA3B592226C8AA00096030 /* LaunchScreen.storyboard */; };
+		3BDA3B632226C99300096030 /* ManHinh 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA3B622226C99300096030 /* ManHinh 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B35C6B022256C6F00A8A9B1 /* Lesson 48: Create new class for new screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 48: Create new class for new screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B35C6B322256C6F00A8A9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B35C6B522256C6F00A8A9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B35C6B822256C6F00A8A9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B35C6BA22256C7100A8A9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B35C6BD22256C7100A8A9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B35C6BF22256C7100A8A9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B35C6C522256D6100A8A9B1 /* Screen 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screen 2.swift"; sourceTree = "<group>"; };
+		3BDA3B4D2226C8AA00096030 /* Lesson 47: Use code to switch screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 47: Use code to switch screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDA3B502226C8AA00096030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BDA3B522226C8AA00096030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BDA3B552226C8AA00096030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BDA3B572226C8AA00096030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BDA3B5A2226C8AA00096030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BDA3B5C2226C8AA00096030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDA3B622226C99300096030 /* ManHinh 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManHinh 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B35C6AD22256C6F00A8A9B1 /* Frameworks */ = {
+		3BDA3B4A2226C8AA00096030 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B35C6A722256C6F00A8A9B1 = {
+		3BDA3B442226C8AA00096030 = {
 			isa = PBXGroup;
 			children = (
-				3B35C6B222256C6F00A8A9B1 /* Lesson 48: Create new class for new screen */,
-				3B35C6B122256C6F00A8A9B1 /* Products */,
+				3BDA3B4F2226C8AA00096030 /* Lesson 47: Use code to switch screen */,
+				3BDA3B4E2226C8AA00096030 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B35C6B122256C6F00A8A9B1 /* Products */ = {
+		3BDA3B4E2226C8AA00096030 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B35C6B022256C6F00A8A9B1 /* Lesson 48: Create new class for new screen.app */,
+				3BDA3B4D2226C8AA00096030 /* Lesson 47: Use code to switch screen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B35C6B222256C6F00A8A9B1 /* Lesson 48: Create new class for new screen */ = {
+		3BDA3B4F2226C8AA00096030 /* Lesson 47: Use code to switch screen */ = {
 			isa = PBXGroup;
 			children = (
-				3B35C6B322256C6F00A8A9B1 /* AppDelegate.swift */,
-				3B35C6B522256C6F00A8A9B1 /* ViewController.swift */,
-				3B35C6B722256C6F00A8A9B1 /* Main.storyboard */,
-				3B35C6BA22256C7100A8A9B1 /* Assets.xcassets */,
-				3B35C6BC22256C7100A8A9B1 /* LaunchScreen.storyboard */,
-				3B35C6BF22256C7100A8A9B1 /* Info.plist */,
-				3B35C6C522256D6100A8A9B1 /* Screen 2.swift */,
+				3BDA3B622226C99300096030 /* ManHinh 2.swift */,
+				3BDA3B502226C8AA00096030 /* AppDelegate.swift */,
+				3BDA3B522226C8AA00096030 /* ViewController.swift */,
+				3BDA3B542226C8AA00096030 /* Main.storyboard */,
+				3BDA3B572226C8AA00096030 /* Assets.xcassets */,
+				3BDA3B592226C8AA00096030 /* LaunchScreen.storyboard */,
+				3BDA3B5C2226C8AA00096030 /* Info.plist */,
 			);
-			path = "Lesson 48: Create new class for new screen";
+			path = "Lesson 47: Use code to switch screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B35C6AF22256C6F00A8A9B1 /* Lesson 48: Create new class for new screen */ = {
+		3BDA3B4C2226C8AA00096030 /* Lesson 47: Use code to switch screen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B35C6C222256C7100A8A9B1 /* Build configuration list for PBXNativeTarget "Lesson 48: Create new class for new screen" */;
+			buildConfigurationList = 3BDA3B5F2226C8AA00096030 /* Build configuration list for PBXNativeTarget "Lesson 47: Use code to switch screen" */;
 			buildPhases = (
-				3B35C6AC22256C6F00A8A9B1 /* Sources */,
-				3B35C6AD22256C6F00A8A9B1 /* Frameworks */,
-				3B35C6AE22256C6F00A8A9B1 /* Resources */,
+				3BDA3B492226C8AA00096030 /* Sources */,
+				3BDA3B4A2226C8AA00096030 /* Frameworks */,
+				3BDA3B4B2226C8AA00096030 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Lesson 48: Create new class for new screen";
-			productName = "Lesson 48: Create new class for new screen";
-			productReference = 3B35C6B022256C6F00A8A9B1 /* Lesson 48: Create new class for new screen.app */;
+			name = "Lesson 47: Use code to switch screen";
+			productName = "Lesson 47: Use code to switch screen";
+			productReference = 3BDA3B4D2226C8AA00096030 /* Lesson 47: Use code to switch screen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B35C6A822256C6F00A8A9B1 /* Project object */ = {
+		3BDA3B452226C8AA00096030 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Hoang Viet";
 				TargetAttributes = {
-					3B35C6AF22256C6F00A8A9B1 = {
+					3BDA3B4C2226C8AA00096030 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 3B35C6AB22256C6F00A8A9B1 /* Build configuration list for PBXProject "Lesson 48: Create new class for new screen" */;
+			buildConfigurationList = 3BDA3B482226C8AA00096030 /* Build configuration list for PBXProject "Lesson 47: Use code to switch screen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 3B35C6A722256C6F00A8A9B1;
-			productRefGroup = 3B35C6B122256C6F00A8A9B1 /* Products */;
+			mainGroup = 3BDA3B442226C8AA00096030;
+			productRefGroup = 3BDA3B4E2226C8AA00096030 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B35C6AF22256C6F00A8A9B1 /* Lesson 48: Create new class for new screen */,
+				3BDA3B4C2226C8AA00096030 /* Lesson 47: Use code to switch screen */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B35C6AE22256C6F00A8A9B1 /* Resources */ = {
+		3BDA3B4B2226C8AA00096030 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B35C6BE22256C7100A8A9B1 /* LaunchScreen.storyboard in Resources */,
-				3B35C6BB22256C7100A8A9B1 /* Assets.xcassets in Resources */,
-				3B35C6B922256C6F00A8A9B1 /* Main.storyboard in Resources */,
+				3BDA3B5B2226C8AA00096030 /* LaunchScreen.storyboard in Resources */,
+				3BDA3B582226C8AA00096030 /* Assets.xcassets in Resources */,
+				3BDA3B562226C8AA00096030 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B35C6AC22256C6F00A8A9B1 /* Sources */ = {
+		3BDA3B492226C8AA00096030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B35C6B622256C6F00A8A9B1 /* ViewController.swift in Sources */,
-				3B35C6C622256D6100A8A9B1 /* Screen 2.swift in Sources */,
-				3B35C6B422256C6F00A8A9B1 /* AppDelegate.swift in Sources */,
+				3BDA3B532226C8AA00096030 /* ViewController.swift in Sources */,
+				3BDA3B512226C8AA00096030 /* AppDelegate.swift in Sources */,
+				3BDA3B632226C99300096030 /* ManHinh 2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B35C6B722256C6F00A8A9B1 /* Main.storyboard */ = {
+		3BDA3B542226C8AA00096030 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B35C6B822256C6F00A8A9B1 /* Base */,
+				3BDA3B552226C8AA00096030 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3B35C6BC22256C7100A8A9B1 /* LaunchScreen.storyboard */ = {
+		3BDA3B592226C8AA00096030 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B35C6BD22256C7100A8A9B1 /* Base */,
+				3BDA3B5A2226C8AA00096030 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3B35C6C022256C7100A8A9B1 /* Debug */ = {
+		3BDA3B5D2226C8AA00096030 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		3B35C6C122256C7100A8A9B1 /* Release */ = {
+		3BDA3B5E2226C8AA00096030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,34 +282,34 @@
 			};
 			name = Release;
 		};
-		3B35C6C322256C7100A8A9B1 /* Debug */ = {
+		3BDA3B602226C8AA00096030 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Lesson 48: Create new class for new screen/Info.plist";
+				INFOPLIST_FILE = "Lesson 47: Use code to switch screen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Lesson-46--Create-new-class-for-new-screen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lesson-47--Use-code-to-switch-screen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3B35C6C422256C7100A8A9B1 /* Release */ = {
+		3BDA3B612226C8AA00096030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Lesson 48: Create new class for new screen/Info.plist";
+				INFOPLIST_FILE = "Lesson 47: Use code to switch screen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Lesson-46--Create-new-class-for-new-screen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lesson-47--Use-code-to-switch-screen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B35C6AB22256C6F00A8A9B1 /* Build configuration list for PBXProject "Lesson 48: Create new class for new screen" */ = {
+		3BDA3B482226C8AA00096030 /* Build configuration list for PBXProject "Lesson 47: Use code to switch screen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B35C6C022256C7100A8A9B1 /* Debug */,
-				3B35C6C122256C7100A8A9B1 /* Release */,
+				3BDA3B5D2226C8AA00096030 /* Debug */,
+				3BDA3B5E2226C8AA00096030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B35C6C222256C7100A8A9B1 /* Build configuration list for PBXNativeTarget "Lesson 48: Create new class for new screen" */ = {
+		3BDA3B5F2226C8AA00096030 /* Build configuration list for PBXNativeTarget "Lesson 47: Use code to switch screen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B35C6C322256C7100A8A9B1 /* Debug */,
-				3B35C6C422256C7100A8A9B1 /* Release */,
+				3BDA3B602226C8AA00096030 /* Debug */,
+				3BDA3B612226C8AA00096030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3B35C6A822256C6F00A8A9B1 /* Project object */;
+	rootObject = 3BDA3B452226C8AA00096030 /* Project object */;
 }
