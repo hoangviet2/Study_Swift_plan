@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B13B878224CDE7D00081C0D /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13B877224CDE7D00081C0D /* CellTableViewCell.swift */; };
+		3B13B87A224CEE5D00081C0D /* ViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13B879224CEE5D00081C0D /* ViewControllerView.swift */; };
 		3BECFB4722473DC10025BAB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECFB4622473DC10025BAB9 /* AppDelegate.swift */; };
 		3BECFB4922473DC10025BAB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECFB4822473DC10025BAB9 /* ViewController.swift */; };
 		3BECFB4C22473DC10025BAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BECFB4A22473DC10025BAB9 /* Main.storyboard */; };
 		3BECFB4E22473DC20025BAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BECFB4D22473DC20025BAB9 /* Assets.xcassets */; };
 		3BECFB5122473DC20025BAB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BECFB4F22473DC20025BAB9 /* LaunchScreen.storyboard */; };
-		3BECFB59224755B90025BAB9 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECFB58224755B90025BAB9 /* CellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B13B877224CDE7D00081C0D /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		3B13B879224CEE5D00081C0D /* ViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerView.swift; sourceTree = "<group>"; };
 		3BECFB4322473DC10025BAB9 /* Lesson 78 -> 82: Tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 78 -> 82: Tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BECFB4622473DC10025BAB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BECFB4822473DC10025BAB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +26,6 @@
 		3BECFB4D22473DC20025BAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BECFB5022473DC20025BAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BECFB5222473DC20025BAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BECFB58224755B90025BAB9 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 		3BECFB4522473DC10025BAB9 /* Lesson 78 -> 82: Tableview */ = {
 			isa = PBXGroup;
 			children = (
+				3B13B877224CDE7D00081C0D /* CellTableViewCell.swift */,
 				3BECFB4622473DC10025BAB9 /* AppDelegate.swift */,
 				3BECFB4822473DC10025BAB9 /* ViewController.swift */,
-				3BECFB58224755B90025BAB9 /* CellTableViewCell.swift */,
 				3BECFB4A22473DC10025BAB9 /* Main.storyboard */,
 				3BECFB4D22473DC20025BAB9 /* Assets.xcassets */,
+				3B13B879224CEE5D00081C0D /* ViewControllerView.swift */,
 				3BECFB4F22473DC20025BAB9 /* LaunchScreen.storyboard */,
 				3BECFB5222473DC20025BAB9 /* Info.plist */,
 			);
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BECFB59224755B90025BAB9 /* CellTableViewCell.swift in Sources */,
+				3B13B878224CDE7D00081C0D /* CellTableViewCell.swift in Sources */,
+				3B13B87A224CEE5D00081C0D /* ViewControllerView.swift in Sources */,
 				3BECFB4922473DC10025BAB9 /* ViewController.swift in Sources */,
 				3BECFB4722473DC10025BAB9 /* AppDelegate.swift in Sources */,
 			);

@@ -8,16 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet weak var tblView: UITableView!
     let arrVietNam:Array<Array<String>> = [["Ha noi","Ha Giang"],["Ha Tinh","Hue"],["Ho Chi Minh","Can tho"]]
     let arrHeader:Array<String> = ["Mien Bac","Mien Trung","Mien nam"]
     let arrPicture:Array<Array<String>> = [["6","7",],["8","9"],["10","11"]]
     
+    @IBOutlet weak var tblView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //tblView.dataSource = self
+        tblView.dataSource = self
+        tblView.delegate = self
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrVietNam[section].count
@@ -26,15 +27,19 @@ class ViewController: UIViewController, UITableViewDataSource {
         return arrHeader[section]
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "CellTableViewCell", for: indexPath) as? CellTableViewCell {
-            cell.lblTitle.text = arrVietNam[indexPath.section][indexPath.row]
-            cell.imgPicture.image = UIImage(named: arrPicture[indexPath.section][indexPath.row])
-            return cell
-        }
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellTableViewCell") as! CellTableViewCell
+        cell.lblTitle.text = arrVietNam[indexPath.section][indexPath.row]
+        cell.imgView.image = UIImage(named: arrPicture[indexPath.section][indexPath.row])
+        return cell
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return arrVietNam.count
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let Lastscreen:ViewControllerView = storyboard?.instantiateViewController(withIdentifier: "ViewControllerView") as! ViewControllerView
+        self.navigationController?.pushViewController(Lastscreen, animated: true)
+        Lastscreen.named = arrPicture[indexPath.section][indexPath.row]
+        print(indexPath)
     }
 }
 

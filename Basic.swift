@@ -94,3 +94,18 @@ class ViewController: UIViewController {
         let url:URL = URL(string: "https://www.chess.com/")!
         let req:URLRequest = URLRequest(url: url)
         wvWeb.load(req)
+
+    UITableview //rotocon la delegate and datasoure
+       if let cell = tableView.dequeueReusableCell(withIdentifier: "CellTableViewCell", for: indexPath) as? CellTableViewCell {
+            cell.lblTitle.text = arrVietNam[indexPath.section][indexPath.row]
+        cell.imgPicture.image = UIImage(named: arrPicture[indexPath.section][indexPath.row])
+       }
+ return UITableViewCell()
+         // Step1:Layout for scrollview
+        let scroll:UIScrollView = UIScrollView()
+        view.addSubview(scroll)
+        scroll.translatesAutoresizingMaskIntoConstraints = false
+        scroll.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        scroll.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        scroll.widthAnchor.constraint(equalToConstant: 200)
+        scroll.heightAnchor.constraint(equalToConstant: 200)

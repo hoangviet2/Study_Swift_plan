@@ -2,7 +2,7 @@
 //  CellTableViewCell.swift
 //  Lesson 78 -> 82: Tableview
 //
-//  Created by Hoang Viet on 3/24/19.
+//  Created by Hoang Viet on 3/28/19.
 //  Copyright © 2019 Hoang Viet. All rights reserved.
 //
 
@@ -11,8 +11,7 @@ import UIKit
 class CellTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lblTitle: UILabel!
-    @IBOutlet weak var imgPicture: UIImageView!
-    
+    @IBOutlet weak var imgView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
