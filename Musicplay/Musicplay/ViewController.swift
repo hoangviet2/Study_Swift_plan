@@ -13,12 +13,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sldTimer: UISlider!
     @IBOutlet weak var sldVolume: UISlider!
+    let data = ["LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019","Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang","y2mate.com - westlife_better_man_ZEQOE1oZQ-4"]
     
     var player:AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let patch:String = Bundle.main.path(forResource: "LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019", ofType: ".mp3")!
+//        let patch:String = Bundle.main.path(forResource: "LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019", ofType: ".mp3")!
+        let patch:String = Bundle.main.path(forResource: "" , ofType: ".mp3")!
         
         let url:URL = URL(fileURLWithPath: patch)
         do

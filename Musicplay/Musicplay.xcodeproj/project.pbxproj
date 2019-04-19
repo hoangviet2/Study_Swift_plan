@@ -13,6 +13,8 @@
 		3B4039462253AC2E00758974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4039452253AC2E00758974 /* Assets.xcassets */; };
 		3B4039492253AC2E00758974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4039472253AC2E00758974 /* LaunchScreen.storyboard */; };
 		3B4039512253AFF400758974 /* LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B4039502253AFF400758974 /* LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3 */; };
+		3BDAC35622686CC0008C2356 /* y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BDAC35422686CBF008C2356 /* y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3 */; };
+		3BDAC35722686CC0008C2356 /* Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BDAC35522686CBF008C2356 /* Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3B4039482253AC2E00758974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B40394A2253AC2E00758974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4039502253AFF400758974 /* LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3"; path = "../../Swift music/LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3"; sourceTree = "<group>"; };
+		3BDAC35422686CBF008C2356 /* y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3"; path = "../../Swift music/y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3"; sourceTree = "<group>"; };
+		3BDAC35522686CBF008C2356 /* Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3"; path = "../../Swift music/Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3B4039502253AFF400758974 /* LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3 */,
+				3BDAC35522686CBF008C2356 /* Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3 */,
+				3BDAC35422686CBF008C2356 /* y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3 */,
 				3B40393E2253AC2D00758974 /* AppDelegate.swift */,
 				3B4039402253AC2D00758974 /* ViewController.swift */,
 				3B4039422253AC2D00758974 /* Main.storyboard */,
@@ -127,6 +133,8 @@
 			files = (
 				3B4039492253AC2E00758974 /* LaunchScreen.storyboard in Resources */,
 				3B4039462253AC2E00758974 /* Assets.xcassets in Resources */,
+				3BDAC35622686CC0008C2356 /* y2mate.com - westlife_better_man_ZEQOE1oZQ-4.mp3 in Resources */,
+				3BDAC35722686CC0008C2356 /* Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang.mp3 in Resources */,
 				3B4039512253AFF400758974 /* LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019.mp3 in Resources */,
 				3B4039442253AC2D00758974 /* Main.storyboard in Resources */,
 			);
