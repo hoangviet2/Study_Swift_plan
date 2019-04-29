@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let patch:String = Bundle.main.path(forResource: "LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019", ofType: ".mp3")!
-        let patch:String = Bundle.main.path(forResource: "" , ofType: ".mp3")!
+     let patch:String = Bundle.main.path(forResource: "LIÊN QUÂN RAP BATTLE 2 FAPtv XB PS Man... dizz nhau cực gắt - Đấu Trường Danh Vọng mùa Xuân 2019", ofType: ".mp3")!
+//        let patch:String = Bundle.main.path(forResource: "" , ofType: ".mp3")!
         
         let url:URL = URL(fileURLWithPath: patch)
         do

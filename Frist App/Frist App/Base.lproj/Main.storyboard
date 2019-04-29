@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f1X-z1-b5G">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Frist_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgw-9X-tcj">
+                                <rect key="frame" x="157" y="425" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="QNz-e9-SRK"/>
+                                    <constraint firstAttribute="height" constant="100" id="fwi-Ad-hET"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="0.049730437539999998" blue="0.086167903990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FGE-yZ-Cet"/>
+                                    <segue destination="m9I-Fu-2jr" kind="show" id="a9B-CJ-d9Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4373936826" green="1" blue="0.3883773089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vgw-9X-tcj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="abt-lJ-Vjy"/>
+                            <constraint firstItem="Vgw-9X-tcj" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="p0U-1f-hEO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="PnC-R6-M87"/>
+                    <connections>
+                        <outlet property="btnNext" destination="Vgw-9X-tcj" id="XmF-Mn-ghf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1804" y="129"/>
+        </scene>
+        <!--Change screen-->
+        <scene sceneID="cX4-67-9C7">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="m9I-Fu-2jr" customClass="ViewControllerView" customModule="Frist_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GJu-ho-gzi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZa-eo-b33">
+                                <rect key="frame" x="157" y="425" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.4373936826" green="1" blue="0.3883773089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EiT-HB-bBB"/>
+                                    <constraint firstAttribute="height" constant="100" id="cJt-6t-aGf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="22"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TZa-eo-b33" firstAttribute="centerX" secondItem="vWa-ZG-pSO" secondAttribute="centerX" id="Jt3-mM-DUh"/>
+                            <constraint firstItem="TZa-eo-b33" firstAttribute="centerY" secondItem="vWa-ZG-pSO" secondAttribute="centerY" id="i4e-5N-Rrv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vWa-ZG-pSO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Change screen" id="7Aw-S2-h3k"/>
+                    <connections>
+                        <outlet property="btnback" destination="TZa-eo-b33" id="LoE-QL-1oe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xbq-iD-kfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2568" y="129"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3xX-6c-QKX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f1X-z1-b5G" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KY9-9f-57g">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IIb-Cm-43O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="az9-ta-Hex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1013.0434782608696" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+</document>
