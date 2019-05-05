@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B02061F2275E82F00F49257 /* CodeAutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02061E2275E82F00F49257 /* CodeAutolayoutViewController.swift */; };
+		3B27D9F72279B13C0014207C /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27D9F62279B13C0014207C /* RecipeViewController.swift */; };
 		3B83AA562276CB70000A6693 /* ScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B83AA552276CB70000A6693 /* ScreenViewController.swift */; };
 		3BD0C76622732894004A033B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0C76522732894004A033B /* AppDelegate.swift */; };
 		3BD0C76822732894004A033B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0C76722732894004A033B /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3B02061E2275E82F00F49257 /* CodeAutolayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAutolayoutViewController.swift; sourceTree = "<group>"; };
+		3B27D9F62279B13C0014207C /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		3B83AA552276CB70000A6693 /* ScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController.swift; sourceTree = "<group>"; };
 		3BD0C76222732894004A033B /* Auto layout Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto layout Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD0C76522732894004A033B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		3BD0C76422732894004A033B /* Auto layout Study */ = {
 			isa = PBXGroup;
 			children = (
+				3B27D9F62279B13C0014207C /* RecipeViewController.swift */,
 				3BD0C76522732894004A033B /* AppDelegate.swift */,
 				3BD0C76722732894004A033B /* ViewController.swift */,
 				3BD0C76922732894004A033B /* Main.storyboard */,
@@ -145,6 +148,7 @@
 				3BD0C76822732894004A033B /* ViewController.swift in Sources */,
 				3BD0C76622732894004A033B /* AppDelegate.swift in Sources */,
 				3B02061F2275E82F00F49257 /* CodeAutolayoutViewController.swift in Sources */,
+				3B27D9F72279B13C0014207C /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

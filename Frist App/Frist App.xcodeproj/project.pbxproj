@@ -12,7 +12,6 @@
 		3BD7F0842269EE2100FE13FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD7F0822269EE2100FE13FA /* Main.storyboard */; };
 		3BD7F0862269EE2300FE13FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD7F0852269EE2300FE13FA /* Assets.xcassets */; };
 		3BD7F0892269EE2300FE13FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD7F0872269EE2300FE13FA /* LaunchScreen.storyboard */; };
-		3BD7F0912269EEA800FE13FA /* ViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD7F0902269EEA800FE13FA /* ViewControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		3BD7F0852269EE2300FE13FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD7F0882269EE2300FE13FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BD7F08A2269EE2300FE13FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BD7F0902269EEA800FE13FA /* ViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				3BD7F07E2269EE2100FE13FA /* AppDelegate.swift */,
 				3BD7F0802269EE2100FE13FA /* ViewController.swift */,
 				3BD7F0822269EE2100FE13FA /* Main.storyboard */,
-				3BD7F0902269EEA800FE13FA /* ViewControllerView.swift */,
 				3BD7F0852269EE2300FE13FA /* Assets.xcassets */,
 				3BD7F0872269EE2300FE13FA /* LaunchScreen.storyboard */,
 				3BD7F08A2269EE2300FE13FA /* Info.plist */,
@@ -139,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BD7F0812269EE2100FE13FA /* ViewController.swift in Sources */,
-				3BD7F0912269EEA800FE13FA /* ViewControllerView.swift in Sources */,
 				3BD7F07F2269EE2100FE13FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
