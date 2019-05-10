@@ -116,6 +116,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="lblExchange" destination="bfh-Ew-cCU" id="miO-rw-KHq"/>
                         <outlet property="pickunit" destination="6QJ-JX-Ws8" id="EPf-r1-32f"/>
                         <outlet property="pickunitend" destination="efh-fH-usW" id="axc-P2-aFG"/>
                         <outlet property="txtEntrain" destination="THT-bx-Ik1" id="TEH-3Y-47V"/>
