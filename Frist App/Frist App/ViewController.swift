@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var pickunitend: UIPickerView!
     @IBOutlet weak var txtEntrain: UITextField!
     var so1:Int!
-    var so2:Int = 100
+    var so2:Int = 0
     var data:Int!
     let arrUnitStart = ["milimet","centimet","deximet","met","decamet","hectamet","kilomet"]
     let arrUnitEnd = ["milimet","centimet","deximet","met","decamet","hectamet","kilomet"]
@@ -60,7 +60,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let pickerview3 = pickerView
         let pickerview4 = pickerView
-        if pickerview3 == pickunit {
+        if  pickerview3 == pickunit {
             if component == 0{
                 if pickerview4 == pickunitend{
                     switch (component){
@@ -90,6 +90,9 @@ extension ViewController:UITextFieldDelegate{
         print("textFieldShouldReturn")
         textField.resignFirstResponder()
         return (true)
+    }
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.returnKeyType = .done
     }
     
     

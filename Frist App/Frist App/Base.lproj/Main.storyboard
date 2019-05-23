@@ -37,7 +37,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="269.5" height="163.5"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES" textContentType="tel"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                                     </textField>
                                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6QJ-JX-Ws8">
                                                         <rect key="frame" x="269.5" y="0.0" width="134.5" height="163.5"/>
