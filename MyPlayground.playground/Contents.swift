@@ -43,3 +43,22 @@ var arr : [Character] = []
     }else {
     print("not special")
     }
+//
+let numberofgoal = [
+    "V-league"          : [2,4,5,7,10,12],
+    "seriA"             : [5,9,15,20,30,40],
+    "champion-league"   : [50,1,0,5,7,1000],
+]
+var max = 0
+var arrmax : [Character] = []
+for (kind,number) in numberofgoal{
+    for numbers in number{
+        if max < numbers{
+            max = numbers
+            print(max)
+        }
+    }
+    print()
+}
+print(max)
+
